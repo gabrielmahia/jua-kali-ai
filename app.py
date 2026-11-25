@@ -55,4 +55,4 @@ with tab4:
     if st.button("🏅 Vyeti vya NITA na KEBS",key="jk4"):
         with st.spinner("..."): r=ask("Vyeti vinavyosaidia mafundi wa Jua Kali Kenya: NITA (National Industrial Training Authority), KEBS, TVET. Jinsi ya kupata, gharama, faida za mshahara na masoko.")
         st.markdown(f'<div class="j-card">{r.replace(chr(10),"<br>")}</div>',unsafe_allow_html=True)
-st.markdown("---"); st.caption("🔨 Jua Kali AI v1.0 | KIE: kie.co.ke | NITA: nita.go.ke | CC BY-NC-ND 4.0")
+st.markdown("---"); st.caption("🔨 Jua Kali AI v1.0 | KIE: kie.co.ke | NITA: nita.go.ke | MIT")
